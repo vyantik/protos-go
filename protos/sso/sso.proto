@@ -14,6 +14,7 @@ message RegisterRequest {
     string email = 1;
     string username = 2;
     string password = 3;
+    bytes avatar = 4;
 }
 
 message RegisterResponse {
